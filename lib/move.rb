@@ -9,9 +9,7 @@ def display_board(board)
 end
 
 def input_to_index(input)
-  input = input.to_i
-  input = input - 1
-  return input
+  input = input.to_i - 1
 end
 
 def move(board, input, value = "X")
